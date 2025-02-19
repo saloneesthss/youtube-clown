@@ -27,7 +27,7 @@
     display: flex;
     flex: 1;
     margin-left: 20%;
-    max-width: 600px;
+    max-width: 650px;
     /* height: 40px; */
     align-items: center;
 }
@@ -110,7 +110,7 @@
     left: 0;
     bottom: 0;
     top: 55px;
-    width: 70px;
+    width: 72px;
     position: fixed;
 }
 
@@ -125,7 +125,6 @@
     padding-top: 80px;
     padding-bottom: 40px;
     background-color: rgb(247,247,247);
-    position: static;
 }
 
 .video-preview {
@@ -136,6 +135,22 @@
     width: 100%;
     margin-bottom: 10px;
     cursor: pointer;
+}
+
+.thumbnail-row {
+    position: relative;
+}
+
+.vid-time {
+    position: absolute;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    right: 6px;
+    bottom: 20px;
+    border-radius: 2px;
 }
 
 .not-thumbnail {
